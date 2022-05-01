@@ -23,7 +23,7 @@ namespace Aula3Continuacao //linha 17 e 18
         static void Main (string[] args) //FUNÇÃO PRINCIPAL MAIN! entenderemos funções mais para frente
         {
 
-            //DESSA VEZ IREMOS FAZER UM PROGRAMA PARA SIMULAR O ANO DA SEGUNDA GUERRA MUNDIAL!!!
+            //DESSA VEZ IREMOS FAZER UM PROGRAMA PARA SIMULAR O ANO DO IMPEACHMENT DA DILMA E SEU MANDATO!!!
             //variaveis devem ser escritas antes dos códigos, logo abaixo do bloco da função principal
             int duracaoMandato;//a unica coisa que precisaremos predefinir será se a variável é do tipo int, float, string etc
             int anoInicio = 2014; //essa variavel do tipo inteiro, pois a informação é um numero inteiro
@@ -55,6 +55,15 @@ namespace Aula3Continuacao //linha 17 e 18
             Console.Write("O mandato da presidente durou: ");
             Console.Write(duracaoMandato);
             Console.WriteLine(" anos!");
+
+
+            //ANTES DE ENCERRARMOS A AULA: vale a pena citar as constantes, que são variaveis que a gente não pode modificar no condigo, apenas predefinindo, exemplo abaixo
+            const float PI = 3.1415;
+            Console.WriteLine("\n\n\n\n\n");
+            Console.WriteLine("O valor de PI eh: ");
+            Console.WriteLine(PI);  //essa constante a gente não poderia só declarar, e depois pegar PI e tentar inserir valores dentro dos códigos posteriormente, devemos
+                                    //inserir logo após declararmos e será esse valor até o fim, a aplicação disso pode ser para fazer algo mais seguro, para evitar modificações
+                                    //na variavel, que podem atrapalhar o código
         }
     }
 
